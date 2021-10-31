@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import confusion_matrix
 import matplotlib.pyplot as plt
 
-train_df = pd.read_csv("train.csv")
+train_df = pd.read_csv("https://github.com/Deef84/MachineLearning/blob/ba5ffefb6716c8efc684a27959efbea56ad0d064/train.csv")
 print(train_df.head())
 
 def manipulate_df(df):
